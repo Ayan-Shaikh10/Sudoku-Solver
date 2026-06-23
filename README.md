@@ -76,14 +76,21 @@ Screenshots
 
 Add screenshots of:
 
-- Main Input Screen
--   <img width="717" height="1600" alt="main" src="https://github.com/user-attachments/assets/553e552c-b4b0-4f5f-bcde-b9934aaaa320" />
+- Main Input & Validation Screen
+- 
+- <img width="739" height="1600" alt="main" src="https://github.com/user-attachments/assets/616e6fd0-8c63-47d0-84e3-a46106d97371" />
 
-- Validation Example
--  <img width="717" height="1600" alt="validatee" src="https://github.com/user-attachments/assets/9889a85e-dc9c-4c66-8371-eb4bd208efe8" />
 
-- Solved Sudoku Screen
--  <img width="717" height="1600" alt="solved" src="https://github.com/user-attachments/assets/9c6d3050-92df-4396-a77f-29d5ef57b928" />
+- Solving Screen
+- 
+<img width="740" height="1600" alt="solving" src="https://github.com/user-attachments/assets/a64db26a-4233-48e4-909a-ae2a86bdc852" />
+
+
+- Solved Sudoku Result
+- 
+<img width="740" height="1600" alt="solve" src="https://github.com/user-attachments/assets/6ac14439-1876-4321-87fb-151113ccb9f4" />
+
+
 
 
 Future Improvements
