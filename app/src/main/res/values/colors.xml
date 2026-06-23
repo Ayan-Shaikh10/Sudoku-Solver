@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="dark_bg">#0F1722</color>        <!-- main background -->
+<color name="surface">#222222</color>        <!-- surface / panels -->
+<color name="major_border_color">#E6E6E6</color> <!-- bold block border -->
+<color name="cell_stroke_color">#394049</color>   <!-- inner thin lines -->
+<color name="white">#FFFFFF</color>
+<color name="muted_text">#AAB7C2</color>
+<color name="accent">#3DDC84</color>         <!-- green highlight -->
+<color name="light_green">#DFF7E0</color>    <!-- light cell highlight -->
+<color name="border_color">#00FFDE</color>
+<color name="gray">#C5C6C7</color>
+
+    <color name="dialogbg">#D0394049</color>
+</resources>

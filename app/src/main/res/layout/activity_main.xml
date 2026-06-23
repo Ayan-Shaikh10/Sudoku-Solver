@@ -1,0 +1,414 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_bg"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_bg"
+        android:elevation="6dp"
+        app:title="AX Developer"
+        app:titleCentered="true"
+        app:titleTextColor="@color/border_color" />
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical|center|center_horizontal"
+        android:text="Sudoku Solver"
+        android:textColor="@color/border_color"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/txtCellCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Filled Cells: 0 / 81"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center|center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="@color/surface"
+        android:backgroundTint="@color/surface" >
+
+        <GridLayout
+            android:id="@+id/sudokuGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#222"
+            android:columnCount="9"
+            android:padding="4dp"
+            android:rowCount="9" >
+
+            <TextView
+                android:id="@+id/cell_00"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_01"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_02"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_03"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_04"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_05"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_06"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_07"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_08"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_10"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_11"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_12"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_13"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_14"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_15"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_16"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_17"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_18"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_20"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_21"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_22"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_23"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_24"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_25"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_26"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_27"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_28"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_30"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_31"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_32"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_33"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_34"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_35"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_36"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_37"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_38"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_40"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_41"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_42"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_43"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_44"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_45"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_46"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_47"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_48"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_50"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_51"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_52"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_53"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_54"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_55"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_56"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_57"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_58"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_60"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_61"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_62"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_63"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_64"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_65"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_66"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_67"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_68"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_70"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_71"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_72"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_73"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_74"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_75"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_76"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_77"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_78"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_80"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_81"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_82"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_83"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_84"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_85"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_86"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_87"
+                style="@style/SudokuCell" />
+
+            <TextView
+                android:id="@+id/cell_88"
+                style="@style/SudokuCell" />
+        </GridLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical|center|center_horizontal"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btnValidate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/border_color"
+            android:padding="12dp"
+            android:text="Validate"
+            android:textColor="#ffffffff" />
+
+        <Button
+            android:id="@+id/btnSolve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/border_color"
+            android:padding="12dp"
+            android:text="Solve"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+</LinearLayout>

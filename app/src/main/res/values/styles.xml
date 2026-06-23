@@ -1,0 +1,22 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="SudokuCell">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">36dp</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:background">@drawable/sudoku_cell_bg</item>
+
+
+        <item name="android:layout_margin">1dp</item>
+
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+</resources>
